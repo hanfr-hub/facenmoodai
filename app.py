@@ -25,5 +25,11 @@ demo = gr.Interface(
     description="Upload a picture or use your webcam to detect emotions."
 )
 
-if __name__ == "__main__":
-    demo.launch()
+# Penting untuk Render: expose "app"
+app = demo.launch(
+    server_name="0.0.0.0", 
+    server_port=8080, 
+    share=False, 
+    inline=False, 
+    prevent_thread_lock=True
+)
