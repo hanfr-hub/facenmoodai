@@ -1,2 +1,2 @@
-# facenmoodai
-Emotion Detection App 😃
+# face 'n mood ai
+An Emotion Detection App 😃
